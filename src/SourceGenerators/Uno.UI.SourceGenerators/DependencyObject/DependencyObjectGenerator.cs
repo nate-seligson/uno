@@ -504,16 +504,6 @@ private void __InitializeBinder()
 /// </summary>
 [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
 [global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-public void ClearBindings()
-{{
-	__Store.ClearBindings();
-}}
-
-/// <summary>
-/// Obsolete method kept for binary compatibility
-/// </summary>
-[global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
-[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
 public void RestoreBindings()
 {{
 	__Store.RestoreBindings();
